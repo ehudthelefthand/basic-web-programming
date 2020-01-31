@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+}
+
+form label {
+  font-weight: bold;
+}
+form input {
+  padding: 5px;
+  margin-right: 5px;
+  width: 300px;
+  font-size: 16px;
+  outline: none;
+  border: 2px solid #000;
+}
+form button {
+  font-weight: bold;
+  padding: 5px 8px;
+  font-size: 16px;
+  text-transform: capitalize;
+  border: 2px solid #000;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+form button:hover {
+  background-color: #000;
+  color: #fff;
+}
+form button:active {
+  transform: translate(1px, 1px);
+}
+
+.mode {
+  display: inline-block;
+  margin: 10px 5px 10px 0;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.mode:hover {
+  font-weight: bold;
+}
+.mode.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+li > * {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+li > button {
+  font-weight: bold;
+  padding: 5px 8px;
+  font-size: 14px;
+  text-transform: capitalize;
+  border: 2px solid #000;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+}
+li > button:hover {
+  background-color: #000;
+  color: #fff;
+}
+li > button:active {
+  transform: translate(1px, 1px);
+}
